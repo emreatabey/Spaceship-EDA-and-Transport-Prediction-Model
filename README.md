@@ -29,3 +29,11 @@ This notebook focuses on exploratory data analysis (EDA), feature engineering, a
   
 ## Evaluation Metric
 * **Kaggle Public Score:** **0.80500** (Accuracy)
+
+## Submission
+The final predictions are generated and saved in a file named `submission.csv`. This file follows the exact format required by the Kaggle competition to be evaluated on the public leaderboard.
+
+* **Format:** CSV (Comma-Separated Values)
+* **Columns:**
+    * `PassengerId`: Unique identifier for each passenger from the test set.
+    * `Transported`: The model's binary prediction (`True` for transported, `False` for not transported).
